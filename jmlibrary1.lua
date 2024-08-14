@@ -452,10 +452,10 @@ Open.BorderSizePixel = 0
 Open.Size = UDim2.new(0, 50, 0, 50)
 Open.Active = true
 Open.Draggable = true
-Open.Image = "rbxassetid://18942427277"
+Open.Image = "rbxassetid://18942673533"
 Open.MouseButton1Click:Connect(function()
   Main.Visible = not Main.Visible
-  Open.Image = Main.Visible and "rbxassetid://18942425515" or "rbxassetid://18942249554" --开关的图
+  Open.Image = Main.Visible and "rbxassetid://18942425515" or "rbxassetid://18942670945" --开关的图
 end)
 
 UICorner_2.CornerRadius = UDim.new(0, 90)
@@ -583,7 +583,7 @@ UIG.Parent = Open
           SectionOpened.BackgroundTransparency = 1.000
           SectionOpened.BorderSizePixel = 0
           SectionOpened.Size = UDim2.new(0, 26, 0, 26)
-          SectionOpened.Image = "rbxassetid://18942427277"
+          SectionOpened.Image = "rbxassetid://18942673533"
           SectionOpened.ImageTransparency = 1.000
     
           SectionToggle.Name = "SectionToggle"
