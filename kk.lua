@@ -39,7 +39,7 @@ end
 Start = tick()
 Heartbeat:Connect(HeartbeatUpdate)
 
-local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/hun/main/library1.lua"))();        
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/hun/main/jmlibrary1.lua"))();        
 local win = ui:new("禁漫中心")
 --
 local UITab1 = win:Tab("『信息』",'18930485323')
