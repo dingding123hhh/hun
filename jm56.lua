@@ -2056,7 +2056,7 @@ local UITab69 = win:Tab("『狂野西部』",'7734068321')
 
 local about = UITab69:section("『狂野西部』",true)
 
-about:Button("狂野西部1",function()
+about:Button("狂野西部",function()
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/KeoneGithub/KeoneGithub/main/WildWestLean"),true))()
 end)
 
@@ -2064,7 +2064,7 @@ local UITab70 = win:Tab("『剑斗士模拟器』",'7734068321')
 
 local about = UITab70:section("『剑斗士模拟器』",true)
 
-about:Button("剑斗士模拟器1",function()
+about:Button("剑斗士模拟器",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/bebedi15/DisticHub/main/Loader.lua"))()
 end)
 
@@ -2072,6 +2072,6 @@ local UITab71 = win:Tab("『军事大亨』",'7734068321')
 
 local about = UITab71:section("『军事大亨』",true)
 
-about:Button("军事大亨1",function()
+about:Button("军事大亨",function()
 loadstring(game:HttpGet"https://raw.githubusercontent.com/thedragonslayer2/Key-System/main/Load.lua")()
 end)
