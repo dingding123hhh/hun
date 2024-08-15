@@ -2052,18 +2052,26 @@ about:Button("合并滴管1",function()
 loadstring(game:HttpGet("https://pastefy.app/NpBrBCqM/raw"))()
 end)
 
-local UITab69 = win:Tab("『最强战场』",'7734068321')
+local UITab69 = win:Tab("『狂野西部』",'7734068321')
 
-local about = UITab69:section("『最强战场』",true)
+local about = UITab69:section("『狂野西部』",true)
 
-about:Button("最强战场1",function()
-loadstring(Game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/tsbscripts/main/Main"))()
+about:Button("狂野西部1",function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/KeoneGithub/KeoneGithub/main/WildWestLean"),true))()
 end)
 
-about:Button("最强战场2",function()
-﻿loadstring(game:HttpGet(('https://raw.githubusercontent.com/zeuise0002/SSSWWW222/main/README.md'),true))()
+local UITab70 = win:Tab("『剑斗士模拟器』",'7734068321')
+
+local about = UITab70:section("『剑斗士模拟器』",true)
+
+about:Button("剑斗士模拟器1",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bebedi15/DisticHub/main/Loader.lua"))()
 end)
 
-about:Button("最强战场3",function()
-﻿﻿loadstring(game:HttpGet("https://pastebin.com/raw/1Gp9c57U"))()
+local UITab71 = win:Tab("『军事大亨』",'7734068321')
+
+local about = UITab71:section("『军事大亨』",true)
+
+about:Button("军事大亨1",function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/thedragonslayer2/Key-System/main/Load.lua")()
 end)
