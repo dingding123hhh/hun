@@ -2072,4 +2072,11 @@ about:Button("最强战场4",function()
 loadstring(Game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/tsbscripts/main/Main"))()
 end)
 
+local UITab70 = win:Tab("『狂野西部』",'7734068321')
+
+local about = UITab70:section("『狂野西部』",true)
+
+about:Button("狂野西部1",function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/KeoneGithub/KeoneGithub/main/WildWestLean"),true))()
+end)
 
