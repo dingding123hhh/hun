@@ -2080,6 +2080,10 @@ local UITab72 = win:Tab("『最强战场』",'7734068321')
 
 local about = UITab72:section("『最强战场』",true)
 
-about:Button("最强战场",function()
+about:Button("最强战场1",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/SaitamaBattlegrounds.lua"))()
+end)
+
+about:Button("最强战场2",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/zeuise0002/SSSWWW222/main/README.md'),true))()
 end)
