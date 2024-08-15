@@ -2064,3 +2064,6 @@ about:Button("最强战场2",function()
 ﻿loadstring(game:HttpGet(('https://raw.githubusercontent.com/zeuise0002/SSSWWW222/main/README.md'),true))()
 end)
 
+about:Button("最强战场3",function()
+﻿﻿loadstring(game:HttpGet("https://pastebin.com/raw/1Gp9c57U"))()
+end)
