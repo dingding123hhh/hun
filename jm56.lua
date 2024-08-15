@@ -2075,3 +2075,11 @@ local about = UITab71:section("『军事大亨』",true)
 about:Button("军事大亨",function()
 loadstring(game:HttpGet"https://raw.githubusercontent.com/thedragonslayer2/Key-System/main/Load.lua")()
 end)
+
+local UITab72 = win:Tab("『最强战场』",'7734068321')
+
+local about = UITab72:section("『最强战场』",true)
+
+about:Button("最强战场",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/SaitamaBattlegrounds.lua"))()
+end)
