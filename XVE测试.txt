@@ -1,6 +1,6 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/XVE-UI-Lib/main/source"))()
 
-local Window = library:Window("XVE UI - "..tostring(game.Name))
+local Window = library:Window("禁漫中心"..tostring(game.Name))
 local Notification = library:Notification()
 local Watermark = Window:Watermark()
 
@@ -15,11 +15,11 @@ end)()
 Window:AddToggleButton()
 Window:SetKeybindToggle(Enum.KeyCode.X)
 
-local ExampleTab = Window:Tab("Example Tab")
+local ExampleTab = Window:Tab("禁漫")
 
-ExampleTab:NewLabel("Example Tab")
+ExampleTab:NewLabel("中心")
 ExampleTab:Layout()
 
-ExampleTab:NewButton("Button",function()
+ExampleTab:NewButton("禁漫中心",function()
 getgenv().LS="禁漫中心" loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/anlushanjinchangantangwanle/main/jmjmjmjmjmjmjmllllllllllllllllllllllllllllllllIIIIIIIllll.lua"))()---公益 大约75个服务器 祝好---公益进群：1001390385 修了bug
 end)
