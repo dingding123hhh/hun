@@ -1,4 +1,4 @@
-game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『禁漫中心』"; Text ="Doors"; Duration = 10; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『禁漫中心』"; Text ="压力"; Duration = 10; })
 
 local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Orion/main/source'))()
 
