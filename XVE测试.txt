@@ -1,0 +1,25 @@
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/XVE-UI-Lib/main/source"))()
+
+local Window = library:Window("XVE UI - "..tostring(game.Name))
+local Notification = library:Notification()
+local Watermark = Window:Watermark()
+
+local WaterPING = Watermark:NewWatermark("TIME: ")
+
+coroutine.wrap(function()
+	while true do task.wait()
+		WaterPING:Text(tostring("TIME: ")..tostring(game:GetService('Workspace'):GetServerTimeNow()))
+	end
+end)()
+
+Window:AddToggleButton()
+Window:SetKeybindToggle(Enum.KeyCode.X)
+
+local ExampleTab = Window:Tab("Example Tab")
+
+ExampleTab:NewLabel("Example Tab")
+ExampleTab:Layout()
+
+ExampleTab:NewButton("Button",function()
+getgenv().LS="禁漫中心" loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/anlushanjinchangantangwanle/main/jmjmjmjmjmjmjmllllllllllllllllllllllllllllllllIIIIIIIllll.lua"))()---公益 大约75个服务器 祝好---公益进群：1001390385 修了bug
+end)
