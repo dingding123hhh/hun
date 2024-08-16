@@ -8,7 +8,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "启动成功
 
 
 local Tab = Window:MakeTab({
-	Name = "主要功能",
+	Name = "主要",
 	Icon = "rbxassetid://18942670945",
 	PremiumOnly = false
 })
