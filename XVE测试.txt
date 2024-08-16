@@ -17,7 +17,7 @@ Window:SetKeybindToggle(Enum.KeyCode.X)
 
 local ExampleTab = Window:Tab("禁漫")
 
-ExampleTab:NewLabel("中心")
+ExampleTab:NewLabel("中心666")
 ExampleTab:Layout()
 
 ExampleTab:NewButton("禁漫中心",function()
