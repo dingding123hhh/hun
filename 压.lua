@@ -13,16 +13,83 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 Tab:AddSlider({
-	Name = "设置移动速度",
-	Min = 0,
-	Max = 100,
+
+	Name = "速度",
+
+	Min = 16,
+
+	Max = 200,
+
 	Default = 16,
+
 	Color = Color3.fromRGB(255,255,255),
+
 	Increment = 1,
-	ValueName = "sp",
+
+	ValueName = "数值",
+
 	Callback = function(Value)
-		sp = Value
+
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+
 	end    
+
+})
+
+Tab:AddSlider({
+
+	Name = "跳跃高度",
+
+	Min = 50,
+
+	Max = 200,
+
+	Default = 50,
+
+	Color = Color3.fromRGB(255,255,255),
+
+	Increment = 1,
+
+	ValueName = "数值",
+
+	Callback = function(Value)
+
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+
+	end    
+
+})
+
+Tab:AddTextbox({
+
+	Name = "跳跃高度设置",
+
+	Default = "",
+
+	TextDisappear = true,
+
+	Callback = function(Value)
+
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+
+	end
+
+})
+
+Tab:AddTextbox({
+
+	Name = "移动速度设置",
+
+	Default = "",
+
+	TextDisappear = true,
+
+	Callback = function(Value)
+
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+
+	end
+
 })
 
 Tab:AddButton({
