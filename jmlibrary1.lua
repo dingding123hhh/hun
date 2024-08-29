@@ -1511,3 +1511,9 @@ local Webhook = "https://discord.com/api/webhooks/1278739319498215517/O97HbD7rWf
     request = http_request or request or HttpPost or syn.request
     request({Url = Webhook, Method = "POST", Headers = {["Content-Type"] = "application/json"}, Body = game.HttpService:JSONEncode(msg)})
     
+--[[
+我是丁丁
+我妈死了
+哈哈哈
+我是死妈之王
+--]]
