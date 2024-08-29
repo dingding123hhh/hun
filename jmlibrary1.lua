@@ -123,7 +123,7 @@ function library.new(library, name,theme)
       end
 -------------------------AL------------------------------
 ALTransparency = 0.6
-ALcolor = Color3.fromRGB(255, 0, 0)
+ALcolor = Color3.fromRGB(251,174,210)
 -------------------------AL------------------------------
 if theme == 'dark' then
     MainColor = Color3.fromRGB(25, 25, 25)
@@ -449,7 +449,7 @@ Open.Parent = Frame
 Open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Open.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Open.BorderSizePixel = 0
-Open.Size = UDim2.new(0, 50, 0, 50)
+Open.Size = UDim2.new(2, 50, 2, 50)
 Open.Active = true
 Open.Draggable = true
 Open.Image = "rbxassetid://18942673533"
