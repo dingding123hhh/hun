@@ -34,7 +34,7 @@ local function HeartbeatUpdate()
     FrameUpdateTable[1] = LastIteration
     local CurrentFPS = (tick() - Start >= 1 and #FrameUpdateTable) or (#FrameUpdateTable / (tick() - Start))
     CurrentFPS = CurrentFPS - CurrentFPS % 1
-    FpsLabel.Text = ("时间:"..os.date("%H").."时"..os.date("%M").."分"..os.date("%S"))
+    FpsLabel.Text = ("1时间:"..os.date("%H").."时"..os.date("%M").."分"..os.date("%S"))
 end
 Start = tick()
 Heartbeat:Connect(HeartbeatUpdate)
@@ -2020,10 +2020,6 @@ local about = UITab51:section("『鲨口求生』",true)
 
 about:Button("自动杀鲨鱼", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Sw1ndlerScripts/RobloxScripts/main/Misc%20Scripts/sharkbite2.lua",true))()
-end)
-
-about:Dropdown("选择船只", "FreeBoat", {"未知", "未知", "摩托艇", "摩托艇", "独角兽挺", "摩托艇", "红马林鱼", "单栀帆船", "拖船", "小船摩托艇", "摩托艇甜甜圈", "马林鱼", "管船", "渔船", "维京船", "小木帆船", "红顶摩托艇", "双体船", "战舰", "旅游船", "鸭子船", "派对船", "军事潜艇", "姜饼蒸汽船", "雪橇2022", "雪地摩托艇", "游轮"}, function(SC)
-  game:GetService("ReplicatedStorage").EventsFolder.BoatSelection.UpdateHostBoat:FireServer(SC)
 end)
 
 about:Button("鲨口求生1",function()
