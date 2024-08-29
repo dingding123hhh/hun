@@ -529,12 +529,7 @@ UIG.Parent = Open
         TabL:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(function()
           Tab.CanvasSize = UDim2.new(0, 0, 0, TabL.AbsoluteContentSize.Y + 8)
         end)
-------------------------------------------------------AL.King音乐-------------------------------------------------------
-    local sound = Instance.new("Sound")
-    sound.SoundId = "rbxassetid://6797864253" --音乐id
-    sound.Parent = game.Workspace
-    sound:Play()
----------------分割线-------------------------------分割线-------------------------------分割线----------------
+
         local tab = {}
         function tab.section(tab, name, TabVal)
           local Section = Instance.new("Frame")
