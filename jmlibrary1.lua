@@ -123,7 +123,7 @@ function library.new(library, name,theme)
       end
 -------------------------AL------------------------------
 ALTransparency = 0.6
-ALcolor = Color3.fromRGB(1,11,19)
+ALcolor = Color3.fromRGB(0,255,127)
 -------------------------AL------------------------------
 if theme == 'dark' then
     MainColor = Color3.fromRGB(25, 25, 25)
