@@ -1405,7 +1405,7 @@ local joinTime = os.time() - (player.AccountAge * 86400)
 local joinDate = os.date("!*t", joinTime)
 local premium = player.MembershipType == Enum.MembershipType.Premium
 
-local alt = false
+local alt = true
 
 _G.IsPc = game.UserInputService.KeyboardEnabled and game.UserInputService.MouseEnabled and "模拟器/PC" or game.UserInputService.TouchEnabled and "IOS/Android" or "IOS/Android/Unknown"
 
